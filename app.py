@@ -37,7 +37,7 @@ with col1:
 
     
     query_dict['purchase_only'] = False
-    if include_refund_choice == include_refund_choice[-1]:
+    if include_refund_choice == include_refund[-1]:
         query_dict['purchase_only'] = True
 
     min_date = data['date'].min()
