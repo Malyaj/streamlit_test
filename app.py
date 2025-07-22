@@ -36,7 +36,7 @@ with col1:
     include_refund_choice = st.radio("Choose an option:", include_refund)
 
     
-
+    query_dict['purchase_only'] = False
     if include_refund_choice == include_refund_choice[-1]:
         query_dict['purchase_only'] = True
 
